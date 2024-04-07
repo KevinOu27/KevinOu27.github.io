@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kevin Ou&#39;s Website</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Kevin Ou&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 22:58:09 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a COVID-19 Tracker: The Intersection of Data and Public Health</title>
+      <link>http://localhost:1313/posts/third-post/</link>
+      <pubDate>Sat, 06 Apr 2024 22:58:09 +0900</pubDate>
+      <guid>http://localhost:1313/posts/third-post/</guid>
+      <description>The creation of the COVID-19 tracker was a journey that melded my passion for data science with the pressing needs of public health. The goal was simple yet ambitious: to make crucial pandemic-related data accessible and understandable for all while also learning the behind-the-scenes. This project was not just about tracking a virus; it was about empowering individuals with knowledge.
+The Importance of Data Visualization in Public Health
+Data visualization acts as a bridge, converting complex datasets into clear, actionable insights.</description>
+    </item>
+    <item>
+      <title>From Data to Decisions: My Journey as a Research Assistant in Educational Technology</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Sat, 06 Apr 2024 22:36:02 +0900</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>During my time at the University of Memphis Department of Psychology, I dove deep into the world of educational technology as a research assistant. It was a role that intertwined my passion for data science with the transformative potential of edtech. Our mission was clear: to leverage data to unearth insights that could significantly improve student outcomes.
+One of the pivotal projects I worked on involved developing regression models to detect patterns in student performance.</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Sat, 06 Apr 2024 20:54:42 +0900</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>Here you can find more on my technical abilities through my resume. Download Resume</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 06 Apr 2024 17:20:39 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hello, my name is Kevin Ou, a dedicated professional at the crossroads of data science and data engineering, where analytical precision meets technological innovation. Originating from Memphis, TN, my academic path was carved at the University of Illinois at Urbana-Champaign with a Bachelor&amp;rsquo;s in Statistics, complemented by a certificate in Data Science. Currently, I&amp;rsquo;m enriching my expertise with a Master of Science in Data Science from Northwestern University, with a specialization in Artificial Intelligence.</description>
+    </item>
+    <item>
+      <title>Leadership Lessons from the Illini Wushu Club</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 03 Apr 2024 16:59:16 +0900</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>When I first stepped into the role of president for the Illini Wushu Club at the University of Illinois at Urbana-Champaign, I thought I was just going to lead a club about a sport I love. Little did I know, this experience would teach me invaluable lessons about leadership, teamwork, and community building that I would carry with me in my professional journey in data science and engineering.
+Navigating Diversity and Unity</description>
+    </item>
+  </channel>
+</rss>
