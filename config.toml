@@ -25,5 +25,10 @@ theme="PaperMod"
   url = "/posts/"
   weight = 4
 
+  [[menu.main]]
+  name = "Github"
+  url = "https://github.com/KevinOu27"
+  weight = 5
+
 
 

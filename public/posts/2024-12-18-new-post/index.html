@@ -5,12 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>From Data to Decisions: My Journey as a Research Assistant in Educational Technology | Kevin Ou&#39;s Website</title>
+<title>Kevin Ou&#39;s Website</title>
 <meta name="keywords" content="">
-<meta name="description" content="During my time at the University of Memphis Department of Psychology, I dove deep into the world of educational technology as a research assistant. It was a role that intertwined my passion for data science with the transformative potential of edtech. Our mission was clear: to leverage data to unearth insights that could significantly improve student outcomes.
-One of the pivotal projects I worked on involved developing regression models to detect patterns in student performance.">
+<meta name="description" content="Building a Brain Tumor Classifier with Deep Learning and Knowledge Representation In this project, I aimed to combine deep learning with knowledge representation to tackle a challenging problem: brain tumor classification using MRI scans. This effort represents a culmination of the concepts and techniques I’ve learned and applied, ranging from CNN architectures to the integration of a knowledge graph for enhanced interpretability. The project taught me a lot about the challenges and nuances of applying AI in medical imaging and how interpretability plays a crucial role in real-world applications.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/second-post/">
+<link rel="canonical" href="http://localhost:1313/posts/2024-12-18-new-post/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -19,7 +18,7 @@ One of the pivotal projects I worked on involved developing regression models to
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/second-post/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2024-12-18-new-post/">
 <noscript>
     <style>
         #theme-toggle,
@@ -145,19 +144,61 @@ One of the pivotal projects I worked on involved developing regression models to
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      From Data to Decisions: My Journey as a Research Assistant in Educational Technology
+      
     </h1>
-    <div class="post-meta"><span title='2024-04-06 22:36:02 +0900 +0900'>April 6, 2024</span>
+    <div class="post-meta">
 
 </div>
   </header> 
-  <div class="post-content"><p><img loading="lazy" src="/images/uofm.jpeg" alt="Alt text"  />
-</p>
-<p>During my time at the University of Memphis Department of Psychology, I dove deep into the world of educational technology as a research assistant. It was a role that intertwined my passion for data science with the transformative potential of edtech. Our mission was clear: to leverage data to unearth insights that could significantly improve student outcomes.</p>
-<p>One of the pivotal projects I worked on involved developing regression models to detect patterns in student performance. By utilizing Python and tapping into the power of Postman API, we gathered and analyzed data, translating complex datasets into predictive models. These models weren&rsquo;t just numbers and equations; they were keys to unlocking personalized learning experiences and identifying students who might need additional support before they reached a critical point of struggle.</p>
-<p>This hands-on experience underscored the profound impact of data in educational settings. Through the lens of educational technology, data transcended traditional analysis and became a beacon guiding the decisions that shape students&rsquo; learning journeys. The regression models we developed did more than predict performance; they highlighted the potential of data-driven strategies to tailor education to individual needs, fostering an environment where every student has the opportunity to succeed.</p>
-<p>Reflecting on this experience, I&rsquo;m reminded of the power of data science not just in business or technology sectors but in shaping the futures of learners worldwide. The insights gleaned from our project have the potential to inform teaching strategies, curriculum development, and intervention programs, ultimately enhancing the educational experience for students at all levels.</p>
-<p>My journey as a research assistant in educational technology was a vivid illustration of how data, when harnessed correctly, can be a formidable tool in decision-making processes. It reinforced my belief in the importance of bridging the gap between data science and educational innovation to create impactful learning outcomes.</p>
+  <div class="post-content"><h1 id="building-a-brain-tumor-classifier-with-deep-learning-and-knowledge-representation">Building a Brain Tumor Classifier with Deep Learning and Knowledge Representation<a hidden class="anchor" aria-hidden="true" href="#building-a-brain-tumor-classifier-with-deep-learning-and-knowledge-representation">#</a></h1>
+<p>In this project, I aimed to combine deep learning with knowledge representation to tackle a challenging problem: brain tumor classification using MRI scans. This effort represents a culmination of the concepts and techniques I’ve learned and applied, ranging from CNN architectures to the integration of a knowledge graph for enhanced interpretability. The project taught me a lot about the challenges and nuances of applying AI in medical imaging and how interpretability plays a crucial role in real-world applications.</p>
+<h2 id="the-problem"><strong>The Problem</strong><a hidden class="anchor" aria-hidden="true" href="#the-problem">#</a></h2>
+<p>Brain tumor diagnosis is a critical task in medical imaging, often requiring expertise and time from radiologists. However, traditional manual diagnosis can be subjective and inconsistent. By building a convolutional neural network (CNN) based classifier, my goal was to automate the classification of brain tumors into four categories: glioma, meningioma, pituitary tumor, and no tumor. But I didn’t stop at classification—this project also focused on connecting the classified tumor types with associated symptoms using a knowledge graph.</p>
+<h2 id="what-i-did"><strong>What I Did</strong><a hidden class="anchor" aria-hidden="true" href="#what-i-did">#</a></h2>
+<p>The core of this project was building and training a CNN using the Xception architecture, which has a proven track record for image classification tasks. Using a brain tumor dataset, I split the data into training, validation, and test sets. To ensure robustness, I applied data augmentation techniques like rotations, brightness shifts, and zooming to increase variability and reduce overfitting.</p>
+<p>Here’s a breakdown of the major steps:</p>
+<ol>
+<li><strong>Data Preparation</strong>: Preprocessed and augmented the MRI images to improve model generalization.</li>
+<li><strong>Model Architecture</strong>: Leveraged transfer learning with Xception, fine-tuning the model for the tumor classification task.</li>
+<li><strong>Training</strong>: Trained the model using strategies like early stopping and learning rate reduction to prevent overfitting.</li>
+<li><strong>Evaluation</strong>: Assessed the model using metrics like accuracy, precision, recall, and a confusion matrix.</li>
+<li><strong>Knowledge Graph Integration</strong>: Incorporated a static knowledge graph to map classified tumors to their associated symptoms, with relationships derived from trusted medical sources like the Mayo Clinic.</li>
+</ol>
+<h2 id="key-results"><strong>Key Results</strong><a hidden class="anchor" aria-hidden="true" href="#key-results">#</a></h2>
+<p>The model achieved:</p>
+<ul>
+<li><strong>Accuracy</strong>: 97.94%</li>
+<li><strong>Precision</strong>: 98.09%</li>
+<li><strong>Recall</strong>: 97.94%</li>
+</ul>
+<p>These results show that the model effectively distinguishes between tumor types. The confusion matrix analysis revealed high performance across all four classes, although class imbalances slightly affected scores.</p>
+<p>Despite the high classification accuracy, I encountered challenges with the knowledge graph. I initially attempted to integrate the Google Knowledge Graph API to dynamically retrieve symptoms but found it lacked the necessary medical-specific information. As a fallback, I implemented a static knowledge graph based on pre-defined relationships supported by medical literature.</p>
+<h2 id="what-i-learned"><strong>What I Learned</strong><a hidden class="anchor" aria-hidden="true" href="#what-i-learned">#</a></h2>
+<ol>
+<li>
+<p><strong>Balancing Model Performance and Interpretability</strong>:
+The static knowledge graph made the classification outputs more interpretable by linking tumor types to symptoms. This addition highlighted the importance of combining AI predictions with domain-specific insights to improve usability.</p>
+</li>
+<li>
+<p><strong>The Importance of Data Preprocessing</strong>:
+Data augmentation played a vital role in preventing overfitting and improving the model’s generalizability.</p>
+</li>
+<li>
+<p><strong>Challenges of Real-World APIs</strong>:
+The limitations of the Google Knowledge Graph API underscored the need for domain-specific tools. This inspired me to explore future possibilities like using dedicated medical APIs for richer and more dynamic knowledge graphs.</p>
+</li>
+<li>
+<p><strong>Class Imbalance Impacts</strong>:
+The imbalance in the dataset revealed how important it is to address fairness in training. Techniques like oversampling or weighted loss functions could further improve performance.</p>
+</li>
+<li>
+<p><strong>Deep Learning Isn’t a “Black Box”</strong>:
+Through experimentation with feature mapping (which I ultimately couldn’t implement due to technical issues), I recognized the need for explainable AI in medical applications.</p>
+</li>
+</ol>
+<h2 id="reflections"><strong>Reflections</strong><a hidden class="anchor" aria-hidden="true" href="#reflections">#</a></h2>
+<p>This project was a comprehensive exercise in applying what I’ve learned. From designing a robust neural network architecture to tackling real-world challenges with knowledge graphs, it represents both the opportunities and complexities of AI in healthcare. While the results were promising, they also highlighted areas for growth, such as incorporating more dynamic and accurate knowledge representation tools.</p>
+<p>This experience has shown me how AI isn’t just about achieving high accuracy but also about creating systems that are interpretable, actionable, and practical for real-world use. Moving forward, I aim to explore how these insights can be generalized to other domains, bridging the gap between AI theory and impactful applications.</p>
 
 
   </div>

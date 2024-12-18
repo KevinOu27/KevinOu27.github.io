@@ -1,34 +1,34 @@
 +++
-title = 'Leadership Lessons from the Illini Wushu Club'
-date = 2024-04-03T16:59:16+09:00
+title = "Diagnosing Brain Tumors with Deep Learning and Knowledge Graphs"
+date = 2024-12-18T10:00:00+09:00
 draft = false
 +++
 
-When I first stepped into the role of president for the Illini Wushu Club at the University of Illinois at Urbana-Champaign, I thought I was just going to lead a club about a sport I love. Little did I know, this experience would teach me invaluable lessons about leadership, teamwork, and community building that I would carry with me in my professional journey in data science and engineering.
+Applying artificial intelligence to real-world problems can be incredibly rewarding, and my recent project combining deep learning and knowledge representation for brain tumor classification has been one of the most illuminating experiences of my journey in data science. This project explored the intersection of computer vision and knowledge representation, providing not only technical challenges but also valuable insights into the potential and limitations of AI in medical applications.
 
-![Alt text](/images/uiuc.jpeg)
+![Alt text](/images/brain_tumor_project.jpeg)
 
-**Navigating Diversity and Unity**
+**Tackling a Real-World Challenge**
 
-The club was a melting pot of individuals from various backgrounds, all united by a passion for Wushu. Leading such a diverse group taught me the importance of inclusivity and creating an environment where everyone feels valued and heard. It was a delicate balancing act, ensuring that our activities catered to both beginners and seasoned practitioners, fostering a sense of community while pushing everyone to excel.
+The goal was ambitious: classify brain MRI images into four categories (glioma, meningioma, pituitary tumor, and no tumor) using a convolutional neural network (CNN) while linking predictions to clinical symptoms through a knowledge graph. This dual focus on accuracy and interpretability made the project especially impactful, as it bridged the gap between automated diagnosis and actionable insights for clinicians.
 
-**Event Management: A Test of Organization and Flexibility**
+**Designing a Robust Deep Learning Model**
 
-Organizing events, from social gatherings to fundraisers and performances, was always a logistical challenge. It honed my ability to plan meticulously, anticipate potential issues, and adapt on the fly. These experiences were a crash course in project management, emphasizing the importance of flexibility and problem-solving – skills that are equally critical in data projects.
+I selected the Xception architecture for the classification task, leveraging transfer learning to build a high-performing model. Data augmentation was crucial for improving generalization, applying techniques such as rotations, zooming, and brightness adjustments. Regularization methods like dropout layers, early stopping, and learning rate scheduling ensured the model didn’t overfit, resulting in a final test accuracy of 97.94%. This high performance demonstrated the effectiveness of carefully designed neural networks and highlighted the importance of structured experimentation in achieving reliable results.
 
-**Effective Communication: The Backbone of Leadership**
+**Integrating Knowledge Representation**
 
-Perhaps the most crucial lesson was the importance of clear, open communication. Leading meetings, coordinating events, and liaising with university officials and club members underscored the need for transparent communication. It was about conveying the vision, listening to feedback, and ensuring everyone was aligned with the club's goals – a practice I find invaluable when working on data engineering projects, where collaboration is key.
+To make the model predictions interpretable, I integrated a static knowledge graph mapping tumor types to their associated symptoms, such as headaches and seizures for glioma or vision loss for pituitary tumors. While I initially attempted to use the Google Knowledge Graph API for dynamic symptom retrieval, its lack of medical-specific information highlighted a key limitation of general-purpose APIs in specialized domains. Falling back on static relationships derived from trusted sources like the Mayo Clinic ensured the system remained clinically relevant.
 
-**Empowerment and Delegation**
+**Key Insights and Lessons Learned**
 
-Lastly, leading the Illini Wushu Club taught me the power of delegation and trust. Empowering board members and club members to take charge of tasks, make decisions, and lead initiatives not only fostered a sense of ownership but also allowed the club to thrive. This lesson in empowerment and trusting your team has been instrumental in my approach to working on complex data science projects.
+This project wasn’t without its challenges. Addressing class imbalances in the dataset, handling overfitting, and debugging feature mapping issues for explainability were all significant hurdles. However, the lessons I learned were equally valuable:
+- The importance of balancing model performance and interpretability, especially in medical AI applications.
+- The need for domain-specific APIs or datasets when integrating external knowledge systems.
+- How regularization techniques and carefully crafted architecture can lead to efficient, reliable models.
 
-In reflection, leading the Illini Wushu Club wasn't just about organizing events or practices; it was about building a community, leading with empathy, and learning to navigate the complexities of teamwork – all of which have enriched my professional ethos in the tech world.
+**Broad Implications**
 
-The journey of leadership is filled with learning, growth, and challenges. My tenure as the Illini Wushu Club president was a defining chapter in my leadership journey, teaching me lessons that I carry into my career in data science and data engineering.
+This project goes beyond brain tumor classification. It demonstrates how combining AI techniques—deep learning and knowledge representation—can enhance decision support systems in various domains, from healthcare to business analytics. The challenges and solutions from this experience have provided me with a stronger understanding of how to approach complex, interdisciplinary projects effectively.
 
-
-
-
-
+Building this system wasn’t just about achieving technical milestones—it was about understanding how AI can impact people’s lives. This experience has solidified my passion for developing AI solutions that are not only accurate but also meaningful and actionable.
