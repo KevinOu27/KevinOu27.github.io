@@ -3,11 +3,12 @@ layout: default
 title: About Me
 ---
 
-<div style="width: 100%; background: #f5f5f5; border-bottom: 1px solid #ccc; text-align: center; padding: 1em 0; font-size: 1.1em;">
-  <a href="/" style="margin: 0 20px;">Home</a>
-  <a href="/about" style="margin: 0 20px;">About Me</a>
-  <a href="/projects" style="margin: 0 20px;">Projects</a>
+<div style="width: 100%; background: linear-gradient(90deg, #1e779c, #159957); padding: 1em 0; text-align: center; font-size: 1.1em;">
+  <a href="/" style="margin: 0 20px; color: white; text-decoration: none;">Home</a>
+  <a href="/about" style="margin: 0 20px; color: white; text-decoration: none;">About Me</a>
+  <a href="/projects" style="margin: 0 20px; color: white; text-decoration: none;">Projects</a>
 </div>
+
 
 ## About Me
 
