@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- Navbar -->
-<div style="text-align: center; padding: 1em 0; background-color: #f5f5f5; border-bottom: 1px solid #ccc;">
-  <a href="/" style="margin: 0 15px;">Home</a>
-  <a href="/about" style="margin: 0 15px;">About Me</a>
-  <a href="/projects" style="margin: 0 15px;">Projects</a>
-</div>
 
 # Welcome
 
