@@ -2,6 +2,7 @@
 layout: default
 title: About Me
 ---
+
 <div style="width: 100%; background: #f5f5f5; border-bottom: 1px solid #ccc; text-align: center; padding: 1em 0; font-size: 1.1em;">
   <a href="/" style="margin: 0 20px;">Home</a>
   <a href="/about" style="margin: 0 20px;">About Me</a>
